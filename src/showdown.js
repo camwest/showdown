@@ -117,6 +117,7 @@ var g_output_modifiers = [];
 // Automatic Extension Loading (node only):
 //
 
+/*
 if (typeof module !== 'undefind' && typeof exports !== 'undefined' && typeof require !== 'undefind') {
 	var fs = require('fs');
 
@@ -134,6 +135,7 @@ if (typeof module !== 'undefind' && typeof exports !== 'undefined' && typeof req
 		});
 	}
 }
+*/
 
 this.makeHtml = function(text) {
 //
